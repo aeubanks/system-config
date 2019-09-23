@@ -135,7 +135,7 @@ then # run in chroot
 
     echo 'Installing boot config...'
     # install boot config
-    bootctl --path=/boot/ install
+    bootctl install
 
     echo 'Starting system services...'
     # start system services
