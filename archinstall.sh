@@ -81,6 +81,8 @@ then # run in arch install iso
     reflector \
     pacman-contrib \
     openssh \
+    NetworkManager NetworkManagerApplet \
+    dex \
     xorg xorg-xinit xbindkeys \
     alsa-utils pulseaudio sox \
     i3-wm i3status dmenu \
