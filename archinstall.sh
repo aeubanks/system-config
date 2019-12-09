@@ -85,7 +85,7 @@ then # run in arch install iso
     dex \
     xorg xorg-xinit xbindkeys \
     light \
-    alsa-utils pulseaudio sox \
+    alsa-utils pulseaudio sox pasystray \
     i3-wm i3status dmenu \
     xsecurelock \
     feh nitrogen \
