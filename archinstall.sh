@@ -84,6 +84,7 @@ then # run in arch install iso
     NetworkManager NetworkManagerApplet \
     dex \
     xorg xorg-xinit xbindkeys \
+    light \
     alsa-utils pulseaudio sox \
     i3-wm i3status dmenu \
     xsecurelock \
