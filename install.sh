@@ -3,7 +3,7 @@
 # pacman -Sy unzip
 # wget https://github.com/aeubanks/system-config/archive/master.zip
 # unzip *.zip -d system-config
-# system-config/archinstall.sh
+# system-config/install.sh
 
 set -e
 
@@ -114,11 +114,11 @@ then # run in arch install iso
     # generate fstab config
     genfstab -U /mnt/ >> /mnt/etc/fstab
 
-    cp archinstall.sh /mnt/root/
+    cp install.sh /mnt/root/
 
     echo 'chrooting to Linux partition...'
     # chroot to Linux partition
-    arch-chroot /mnt/ /root/archinstall.sh chroot
+    arch-chroot /mnt/ /root/install.sh chroot
 
 elif [[ "$1" = 'chroot' ]]
 then # run in chroot
