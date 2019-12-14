@@ -72,7 +72,7 @@ then # run in arch install iso
     tree \
     tmux \
     vim \
-    git mercurial \
+    git \
     clang \
     fish \
     noto-fonts noto-fonts-emoji ttf-inconsolata terminus-font adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts \
@@ -90,8 +90,8 @@ then # run in arch install iso
     xsecurelock \
     feh nitrogen \
     rxvt-unicode \
-    dialog \
     chromium \
+    borg \
     libglvnd nvidia nvidia-settings
 
     echo 'Creating system config files...'
