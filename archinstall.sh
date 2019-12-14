@@ -75,13 +75,13 @@ then # run in arch install iso
     git mercurial \
     clang \
     fish \
-    noto-fonts noto-fonts-emoji ttf-inconsolata terminus-font adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kn-fonts \
+    noto-fonts noto-fonts-emoji ttf-inconsolata terminus-font adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts \
     powertop tlp \
     systemd-swap \
     reflector \
     pacman-contrib \
     openssh \
-    NetworkManager NetworkManagerApplet \
+    networkmanager network-manager-applet \
     dex \
     xorg xorg-xinit xbindkeys \
     light \
