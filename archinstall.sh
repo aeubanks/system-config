@@ -143,7 +143,6 @@ then # run in chroot
     echo 'Starting system services...'
     # start system services
     systemctl enable systemd-swap
-    systemctl enable reflector.timer
     systemctl enable fstrim.timer
 
     # set root password
