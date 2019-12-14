@@ -87,7 +87,7 @@ then # run in arch install iso
     light \
     alsa-utils pulseaudio sox pasystray \
     i3-wm i3status dmenu \
-    xsecurelock \
+    xss-lock xsecurelock \
     feh nitrogen \
     rxvt-unicode \
     chromium \
