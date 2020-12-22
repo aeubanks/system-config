@@ -92,7 +92,7 @@ then # run in arch install iso
     rxvt-unicode \
     chromium \
     borg \
-    libglvnd nvidia nvidia-settings
+    libglvnd
 
     echo 'Creating system config files...'
     sed -i 's/^# %wheel ALL=(ALL) ALL$/%wheel ALL=(ALL) ALL/' /mnt/etc/sudoers
